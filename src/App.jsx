@@ -26,17 +26,13 @@ function App() {
         {
           path: "",
           element: (
-            <ProtectedRoutes>
               <Home />
-            </ProtectedRoutes>
           ),
         },
         {
           path: "post/:id",
           element: (
-            <ProtectedRoutes>
               <PostDetails />
-            </ProtectedRoutes>
           ),
         },
         {
@@ -54,9 +50,7 @@ function App() {
         {
           path: "Profile",
           element: (
-            <ProtectedRoutes>
               <Profile />
-            </ProtectedRoutes>
           ),
         },
       ],
