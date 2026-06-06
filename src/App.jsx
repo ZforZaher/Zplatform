@@ -42,17 +42,13 @@ function App() {
         {
           path: "Login",
           element: (
-            <ProtectedAuth>
               <Login />
-            </ProtectedAuth>
           ),
         },
         {
           path: "Signup",
           element: (
-            <ProtectedAuth>
               <Signup />
-            </ProtectedAuth>
           ),
         },
         {
